@@ -1,10 +1,10 @@
 
 
 ;---------------------------------------------------
-;Name: Adam Coyte
-;Email:
-;OS Name: HempOS
-;student number:
+; Name: Adam Coyte
+; Email:
+; OS Name: HempOS
+; student number:
 ;
 ; Details
 ; ----------------------------------
@@ -131,13 +131,6 @@ mainloop:                  ;label for mainloop
     jmp mainloop
 
 
-
-
-
-
-
-
-
 ;------------------------------------------------------------------------------
 ;This is the Data
 ;-----------------------------------------------------------------------------
@@ -152,13 +145,6 @@ mainloop:                  ;label for mainloop
       entrval db 'Val:',0 ;delaring string, this is fro prompting user for a value
       buffer equ 3000       ;delaring variable, this is where the string is
 ;------------------------------------------------------------------------------
-
-
-
-
-
-
-
 
 
 ;------------------------------------------------------------------------------
@@ -197,11 +183,6 @@ printX:
       call PrintString    ;print the string
 
       jmp mainloop        ;jump back to the main loop
-
-
-
-
-
 
 
 ;----------------------------------------------------------------------------
