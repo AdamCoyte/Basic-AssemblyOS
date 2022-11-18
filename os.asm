@@ -11,7 +11,7 @@
 ; This file is part of a simple 16 bit operating system.
 ; It resides within the first boot sector.
 ;---------------------------------------------------
-.386						; Compile for a 80386 CPU
+.386						            ; Compile for a 80386 CPU
  option segment:use16				; Force 16 bit segments instead of default 32 bit
 .model tiny         				; Tiny memory model
 
@@ -347,7 +347,7 @@ fini:
 ;-----------------------------------------------------------------------------------------------------------------------------
 
 
-;------------------------------------------------------------------------------
+
 ;---------------------------------PrintString-----------------------------------
 ;
 ;Prints string, memory address is specified by used
@@ -370,9 +370,6 @@ done:
 
 
 
-
-
-;---------------------------------------------------
 ;----------------------InputString------------------
 
 ;Inputs string at a place in memory
@@ -446,7 +443,7 @@ done1:
 
 
 
-;------------------------------------------------
+
 ;------------------writechar--------------------
 
 ;Displays the character that was placed in al
@@ -457,7 +454,7 @@ writechar:
 
   ret
 
-;---------------------------------------------------
+
 ;---------------------Newloin----------------------
 
 ;Print a Newline
@@ -475,7 +472,7 @@ writechar:
 
 
 
-  ;------------------------------------------------------------------
+  
   ;----------------------------getval---------------------------------
   ;
   ;Get the value, Intakes input from user and converts to decimal
@@ -509,7 +506,7 @@ writechar:
 
 
 
-;-----------------------------------------------------
+ 
 ;-----------------------badcommand---------------------
 ;
 ;Displays ? as a bad or unknown command was inputed
